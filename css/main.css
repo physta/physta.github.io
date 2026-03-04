@@ -98,8 +98,8 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #ffffff;
-  border-bottom: 1px solid #EDF2F7;
+  background: #1A202C;
+  border-bottom: none;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -112,7 +112,7 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
-  color: #2D3748;
+  color: #ffffff;
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -221,14 +221,15 @@ img {
   display: block;
   padding: 10px;
   padding-left: 30px;
-  background: #ffffff;
+  background: #1A202C;
+  color: #ffffff !important;
   text-decoration: none !important;
   border-width: 0 1px 1px 1px;
   font-weight: normal;
 }
 @media only screen and (max-width: 767px) {
   .navbar-custom .nav .navlinks-container.show-children {
-    background: #EDF2F7;
+    background: #2D3748;
   }
   .navbar-custom .nav .navlinks-container.show-children .navlinks-children {
     display: block;
@@ -239,7 +240,7 @@ img {
     text-align: center;
   }
   .navbar-custom .nav .navlinks-container:hover {
-    background: #EDF2F7;
+    background: #2D3748;
   }
   .navbar-custom .nav .navlinks-container:hover .navlinks-children {
     display: block;
@@ -249,7 +250,7 @@ img {
   }
   .navbar-custom .nav .navlinks-container .navlinks-children a {
     padding-left: 10px;
-    border: 1px solid #EDF2F7;
+    border: 1px solid #2D3748;
     border-width: 0 1px 1px;
   }
 }
