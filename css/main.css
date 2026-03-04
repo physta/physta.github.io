@@ -259,28 +259,38 @@ img {
 
 footer {
   padding: 30px 0;
-  background: #F7FAFC;
-  border-top: 1px #EDF2F7 solid;
+  background: #1A202C;
+  border-top: none;
   margin-top: 50px;
   font-size: 14px;
+  color: #ffffff;
 }
 
 footer a {
-  color: #2D3748;
+  color: #ffffff;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #2B6CB0;
 }
 
 footer .list-inline {
   margin: 0;
   padding: 0;
 }
+
 footer .copyright {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   margin-bottom: 0;
+  color: #ffffff;
 }
+
 footer .theme-by {
   text-align: center;
   margin: 10px 0 0;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 768px) {
