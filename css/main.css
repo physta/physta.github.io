@@ -128,21 +128,23 @@ img {
   -moz-transition: padding .5s ease-in-out;
   transition: padding .5s ease-in-out;
 }
+
 .navbar-custom .navbar-brand-logo img {
-  /* MODIFICADO: Antes era 50px. Probamos con 120px para que se vea bien grande. */
-  height: 120px;
+  height: 60px; /* Altura base conservadora para no empujar el menu */
+  transform: scale(2.0); /* EFECTO LUPA: Lo hace el doble de grande visualmente */
+  transform-origin: left center; /* Crece hacia la derecha para no salirse de la pantalla */
   -webkit-transition: height .5s ease-in-out;
   -moz-transition: height .5s ease-in-out;
   transition: height .5s ease-in-out;
 }
+
 .navbar-custom.top-nav-short .navbar-brand-logo img {
-  /* MODIFICADO: Antes era 40px. Probamos con 80px para cuando se encoge al hacer scroll. */
-  height: 80px;
+  height: 45px;
 }
 
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    padding: 20px 0;
+    padding: 5px 0; /* REDUCIDO: Le quitamos casi todo el relleno al header para que sea mas estrecho */
     -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
     -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
     transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -152,13 +154,12 @@ img {
     padding: 0;
   }
 
-  /* <-- MODIFICADO: Añadir esto para centrar los enlaces verticalmente respecto al logo mas grande en pantallas de ordenador */
   .navbar-custom .nav li a {
-      margin-top: 40px;
+      margin-top: 15px; /* Ajuste para centrar los textos con el nuevo header estrecho */
       transition: margin-top .5s ease-in-out;
   }
    .navbar-custom.top-nav-short .nav li a {
-      margin-top: 25px; /* Ajuste para cuando se encoge la barra al hacer scroll */
+      margin-top: 10px; 
   }
 }
 
