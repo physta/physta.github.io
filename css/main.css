@@ -130,7 +130,7 @@ img {
 }
 
 .navbar-custom .navbar-brand-logo img {
-  height: 85px; /* Sube o baja este número para cambiar el tamaño real del logo */
+  height: 130px; /* Sube o baja este número para cambiar el tamaño real del logo */
   -webkit-transition: height .5s ease-in-out;
   -moz-transition: height .5s ease-in-out;
   transition: height .5s ease-in-out;
