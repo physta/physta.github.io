@@ -130,16 +130,14 @@ img {
 }
 
 .navbar-custom .navbar-brand-logo img {
-  height: 60px; /* Altura base conservadora para no empujar el menu */
-  transform: scale(2.0); /* EFECTO LUPA: Lo hace el doble de grande visualmente */
-  transform-origin: left center; /* Crece hacia la derecha para no salirse de la pantalla */
+  height: 85px; /* Sube o baja este número para cambiar el tamaño real del logo */
   -webkit-transition: height .5s ease-in-out;
   -moz-transition: height .5s ease-in-out;
   transition: height .5s ease-in-out;
 }
 
 .navbar-custom.top-nav-short .navbar-brand-logo img {
-  height: 45px;
+  height: 60px; 
 }
 
 @media only screen and (min-width: 768px) {
