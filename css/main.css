@@ -134,7 +134,7 @@ img {
 }
 
 .navbar-custom .navbar-brand-logo img {
-    height: 90px; /* Pon el número que quieras (90, 100, 110...) */
+    height: 150px; /* Pon el número que quieras (90, 100, 110...) */
     margin-top: -15px !important; /* ESTA ES LA CLAVE: Tira del logo hacia arriba. Si ves que sigue muy abajo, pon -20px o -25px */
 }
 
