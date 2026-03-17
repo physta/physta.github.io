@@ -129,11 +129,13 @@ img {
   transition: padding .5s ease-in-out;
 }
 
+.navbar-custom .navbar-brand {
+    padding-top: 0px !important; /* Quitamos el tope invisible de arriba */
+}
+
 .navbar-custom .navbar-brand-logo img {
-  height: 130px; /* Sube o baja este número para cambiar el tamaño real del logo */
-  -webkit-transition: height .5s ease-in-out;
-  -moz-transition: height .5s ease-in-out;
-  transition: height .5s ease-in-out;
+    height: 90px; /* Pon el número que quieras (90, 100, 110...) */
+    margin-top: -15px !important; /* ESTA ES LA CLAVE: Tira del logo hacia arriba. Si ves que sigue muy abajo, pon -20px o -25px */
 }
 
 .navbar-custom.top-nav-short .navbar-brand-logo img {
