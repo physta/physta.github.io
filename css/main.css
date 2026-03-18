@@ -135,7 +135,7 @@ img {
 
 .navbar-custom .navbar-brand-logo img {
     height: 180px; /* Pon el número que quieras (90, 100, 110...) */
-    margin-top: -50px !important; /* ESTA ES LA CLAVE: Tira del logo hacia arriba. Si ves que sigue muy abajo, pon -20px o -25px */
+    margin-top: -55px !important; /* ESTA ES LA CLAVE: Tira del logo hacia arriba. Si ves que sigue muy abajo, pon -20px o -25px */
 }
 
 .navbar-custom.top-nav-short .navbar-brand-logo img {
