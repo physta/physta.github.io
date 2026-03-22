@@ -72,11 +72,7 @@ If you use <b>Quantum Espresso</b> rewrite your `incar.in` according to the `POS
 
     python KCM.py --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0" POSCAR kappa-mxxx.hdf5
  
----
-layout: page
-title: INPUT file 
-description: How to define specific inputs.
----
+## INPUT file
 
 An INPUT file is used by KCM.py to define specific parameters as temperatures or boundary effects.  
 
