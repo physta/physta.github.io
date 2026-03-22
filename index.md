@@ -72,7 +72,7 @@ If you use <b>Quantum Espresso</b> rewrite your `incar.in` according to the `POS
 
     python KCM.py --pa="0 1/2 1/2 1/2 0 1/2 1/2 1/2 0" POSCAR kappa-mxxx.hdf5
  
-## INPUT file
+# INPUT file
 
 An INPUT file is used by KCM.py to define specific parameters as temperatures or boundary effects.  
 
@@ -120,7 +120,7 @@ The next variables indicate the type of outputs:
 - `STP`. Indicates the number of elements used in the binning of the frequency dependent output file. `STP= 100` by default.
 
 
-## Tips for calculations
+# Tips for calculations
 
 The calculations of thermal conductivity for different structures and materials
 may require specific parameters, constrains, etc., for the calculations of force constants and 
