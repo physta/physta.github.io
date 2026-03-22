@@ -28,9 +28,9 @@ navbar-links:
     #- Finite elements: "finite_elements"
     #- References: "articles"
   User Guide: 
-    - General: "user_guide" 
-    - INPUT file: "input_file"  
-    - Tips: "tips"
+    #- General: "user_guide" 
+    #- INPUT file: "input_file"  
+    #- Tips: "tips"
   #Resources:
     #- Phono3py: 'https://atztogo.github.io/phono3py/index.html" target="_blank"'
     #- VASP: 'https://www.vasp.at/" target="_blank"'
