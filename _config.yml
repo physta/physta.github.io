@@ -23,19 +23,19 @@ description: BTE-based hydrodyanmic model for thermal transport
 
 # List of links in the navigation bar
 navbar-links:
-  About KCM: 
-    - Theory: "kcm"
-    - Finite elements: "finite_elements"
-    - References: "articles"
+  # About KCM: 
+    #- Theory: "kcm"
+    #- Finite elements: "finite_elements"
+    #- References: "articles"
   User Guide: 
     - General: "user_guide" 
     - INPUT file: "input_file"  
     - Tips: "tips"
-  Resources:
-    - Phono3py: 'https://atztogo.github.io/phono3py/index.html" target="_blank"'
-    - VASP: 'https://www.vasp.at/" target="_blank"'
-    - Quantum Espresso: 'http://www.quantum-espresso.org/" target="_blank"'
-  NanoTransport GROUP: 'http://grupsderecerca.uab.cat/nanotransport/en" target="_blank"'
+  #Resources:
+    #- Phono3py: 'https://atztogo.github.io/phono3py/index.html" target="_blank"'
+    #- VASP: 'https://www.vasp.at/" target="_blank"'
+    #- Quantum Espresso: 'http://www.quantum-espresso.org/" target="_blank"'
+  #NanoTransport GROUP: 'http://grupsderecerca.uab.cat/nanotransport/en" target="_blank"'
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
